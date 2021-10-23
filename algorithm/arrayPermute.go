@@ -1,9 +1,13 @@
 //perm([a,b,c]) = [a,perm(b,c)]) union [b,perm(a,c)]) union [c, perm(a,b)]
 package algorithm
 
-import "fmt"
+import (
+	"fmt"
+	"zhengyun.zy/algorithm/version"
+)
 
-func test() {
+func Test() {
+	fmt.Println(version.Get())
 	input := []interface{}{1, 2, 3, 4}
 
 	fmt.Println("V1")
