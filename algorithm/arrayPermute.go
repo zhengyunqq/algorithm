@@ -3,7 +3,7 @@ package algorithm
 
 import "fmt"
 
-func main() {
+func test() {
 	input := []interface{}{1, 2, 3, 4}
 
 	fmt.Println("V1")
